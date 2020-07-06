@@ -1,6 +1,6 @@
 {
   "name": "izettle-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IZettle Node API Wrapper",
   "main": "dist/index.js",
   "scripts": {
