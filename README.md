@@ -21,7 +21,10 @@ npm install -s izettle-client
 gulp babel
 ```
 
-
+Before creating a PR
+```
+gulp lint
+```
 
 ## Callbacks
 
