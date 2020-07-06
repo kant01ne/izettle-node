@@ -5,6 +5,10 @@
 
 This is an unofficial Node binding wrapper to the Izettle API I've created while working on a project for a client. This wrapper hasn't been heavily tested. **Do not use unless you feel comfortable modifying and contributing to the project**.
 
+## IZettle Documentation
+
+[Official IZettle API Documentation](https://github.com/iZettle/api-documentation)
+
 ## Installation
 
 ```bash
