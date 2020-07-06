@@ -12,7 +12,7 @@ This is an unofficial Node binding wrapper to the Izettle API I've created while
 ## Installation
 
 ```bash
-npm install -s izettle-client
+npm install -s izettle-node
 ```
 
 ## Running the code locally
@@ -25,6 +25,34 @@ Before creating a PR
 ```
 gulp lint
 ```
+
+
+Require Izettle:
+
+```node
+var Izettle = require('./dist/index');
+```
+
+## Usage
+
+Require Izettle:
+
+```node
+const Izettle = require('izettle-node');
+```
+
+Create a client:
+#### Using Assertion Token
+
+Go to https://my.izettle.com/apps/api-keys > Create API Key. You wioll get a clientId and an assertionToken.
+ 
+```node
+const client = new Izettle.Client({ clientId: 'IZETTLE_CLIENT_ID', assertionToken: 'IZETTLE_ASSERTION_TOKEN'});
+```
+
+## Using OAuth
+
+Not Implemented.
 
 ## Callbacks
 
